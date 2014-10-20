@@ -34,13 +34,15 @@ body {
     background: -ms-linear-gradient(-45deg,  #a8465b 0%,#6d0019 100%);
     background: linear-gradient(135deg,  #a8465b 0%,#6d0019 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8465b', endColorstr='#6d0019',GradientType=1 );
+    color:white;
 
 }
 .graphBarContainer {
     width:400px;
     overflow: hidden;
 }
-span {
-    width: 50%;
-    margin: 0 20px;
+.graphBar {
+    
+    height:1.5em;
+    text-align: center;
 }
