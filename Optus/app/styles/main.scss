@@ -1,0 +1,46 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+@import 'bootstrap-sass-official/assets/stylesheets/bootstrap.scss';
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.graphBar {
+    background: #7db9e8;
+    background: -moz-linear-gradient(-45deg,  #7db9e8 0%, #1e5799 99%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#7db9e8), color-stop(99%,#1e5799));
+    background: -webkit-linear-gradient(-45deg,  #7db9e8 0%,#1e5799 99%);
+    background: -o-linear-gradient(-45deg,  #7db9e8 0%,#1e5799 99%);
+    background: -ms-linear-gradient(-45deg,  #7db9e8 0%,#1e5799 99%);
+    background: linear-gradient(135deg,  #7db9e8 0%,#1e5799 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 );
+
+}
+.graphBarTooBig {
+    background: #a8465b;
+    background: -moz-linear-gradient(-45deg,  #a8465b 0%, #6d0019 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a8465b), color-stop(100%,#6d0019));
+    background: -webkit-linear-gradient(-45deg,  #a8465b 0%,#6d0019 100%);
+    background: -o-linear-gradient(-45deg,  #a8465b 0%,#6d0019 100%);
+    background: -ms-linear-gradient(-45deg,  #a8465b 0%,#6d0019 100%);
+    background: linear-gradient(135deg,  #a8465b 0%,#6d0019 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8465b', endColorstr='#6d0019',GradientType=1 );
+
+}
+.graphBarContainer {
+    width:400px;
+    overflow: hidden;
+}
+span {
+    width: 50%;
+    margin: 0 20px;
+}
