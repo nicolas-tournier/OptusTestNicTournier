@@ -25,7 +25,6 @@ Optus.Views = Optus.Views || {};
         setFinalWidth: function() {
             
             this.model.set({graphWidthPC_start:this.model.get('graphWidthPC_end')});
-            console.log('new start width '+this.model.get('graphWidthPC_start'));
         },
         animateBar: function() {  
             var that = this;
